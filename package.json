@@ -1,0 +1,21 @@
+{
+  "name": "subpub",
+  "version": "1.0.0",
+  "description": "Example of the SubPub module pattern JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify people.js events.js stats.js  --standalone XXX > bundle.js",
+    "build": "browserify src/js/people.js src/js/events.js src/js/stats.js -o bundle.js",
+    "watch": "watchify src/js/people.js src/js/events.js src/js/stats.js -o bundle.js --debug --verbose"
+  },
+  "author": "jason williams",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "jquery": "^3.2.1",
+    "mustache": "^2.3.0",
+    "node": "^8.4.0",
+    "watchify": "^3.9.0"
+  }
+}
