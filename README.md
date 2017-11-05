@@ -1,7 +1,7 @@
 ## SubPub Design Pattern JavaScript
 
 ```javascript
-> git clone
+> git clone https://github.com/jwill9999/Subpub.git
 > cd subPub
 > npm install
 > npm run build
