@@ -8,7 +8,9 @@
 
 > npm run watch - for watch mode
 ```
+## Project View
 
+![](./src/assets/images/subpub.jpg)
 ### Sub / Pub Design Pattern
 
 This is a simple demonstration of the sub / Pub design pattern. It uses modules using the common js pattern of export and require statements. Browserify is built in for cross browser compatability and compilation into a bundle file containing all the js code.
